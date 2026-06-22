@@ -3,11 +3,12 @@
     padding: 0;
 }
 
-.cabeçalho {
+.cabecalho {
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
 }
 
 .cartao {
@@ -25,8 +26,20 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(24, 21, 21);
 }
 
 main {
     flex: 1;
+}
+
+
+cabecalh0-link {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(82, 82, 200);
+    font-size: 24px;
 }
