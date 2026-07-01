@@ -43,3 +43,23 @@ h1 {
     color: rgb(82, 82, 200);
     font-size: 24px;
 }
+
+footer {
+    background-color: darkgreen;
+    padding: 15px 25px;
+    color: black;
+}
+
+.cartao-interno {
+    position: relative;
+    transition: transform 0,8s;
+    transform-style: preserve-3d;
+}
+
+.cartao-frente, -cartao-verso {
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px grey;
+    backface-visibility: hidden;
+
+}
